@@ -1,6 +1,6 @@
 {
   "name": "@martindoyleuk/web-toolkit",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Configuration files and utilities for web projects, especially React based",
   "main": "dist/index.js",
   "files": [
@@ -13,7 +13,9 @@
     "prettier:base": "prettier --config .prettierrc.js --no-editorconfig --ignore-path .gitignore --ignore-unknown \"**/*.*\"",
     "prettier:check": "npm run prettier:base -- --check",
     "prettier:write": "npm run prettier:base -- --write",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "npm publish --acces=public",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "version": "standard-version"
   },
   "repository": {
     "type": "git",
