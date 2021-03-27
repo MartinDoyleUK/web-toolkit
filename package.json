@@ -3,6 +3,10 @@
   "version": "0.0.1",
   "description": "Configuration files and utilities for web projects, especially React based",
   "main": "dist/index.js",
+  "files": [
+    "commitlint.config.js",
+    ".prettierrc.js"
+  ],
   "scripts": {
     "hook:pre-commit": "npm run prettier:check",
     "prepare": "husky install",
