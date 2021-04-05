@@ -1,0 +1,10 @@
+{
+  "events": {
+    "start": "clear"
+  },
+  "exec": "npm run eslint",
+  "ext": "js,jsx,ts,tsx,json",
+  "ignore": [".git", "node_modules"],
+  "restartable": "rs",
+  "watch": ["src/", ".eslintrc.js"]
+}
